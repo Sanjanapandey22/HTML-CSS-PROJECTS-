@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
 
 * {
-   
+    background-color: rgb(243, 209, 255);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -111,7 +111,7 @@ ul {
 .intro {
     display: flex;
     align-items: center;
-    padding: 0;
+    padding-bottom: 10%;
     margin: 0;
     position: relative;
     width: 100%;
@@ -130,9 +130,11 @@ ul {
 }
 
 .intro-right img {
+   margin-bottom: 0%;
+   height: 80vh;
+   width: 80vh;
+   margin-top: 5%;
    
-    width: auto;
-    max-width: 100%;
 }
 
 hr {
@@ -242,6 +244,7 @@ hr {
 .about-intro img{
     height: 600px;
     width: 600px;
+    border-radius: 10%;
 } 
 .about-text {
     display: flex;
@@ -269,12 +272,14 @@ hr {
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
+    background-color: transparent;
 }
     
 .mentor-content img{
     height: 100px;
     width: 100px;
     border-radius: 200px;
+
 }
 /* General Styles */
 body {
@@ -292,6 +297,7 @@ h2 {
 
 .mentor {
     padding: 20px;
+    background: transparent;
 }
 
 .mentor-head p {
@@ -308,6 +314,7 @@ h2 {
 .mentor-content {
     display: flex;
     gap: 20px;
+   
 }
 
 .mentor-card {
@@ -320,7 +327,7 @@ h2 {
     margin-right: 20px; /* Space between cards */
     text-align: center;
     padding: 20px;
-    flex: 0 0 auto; /* Prevents flex items from shrinking */
+    flex: 0 0 auto;
 }
 .mentor-card:hover{
  transform-origin: top;
@@ -336,14 +343,17 @@ h2 {
 
 .mentor-card h3 {
     margin-bottom: 10px;
+    background: transparent;
 }
 
 .mentor-card p {
     margin-bottom: 10px;
+    background: transparent;
    
 }
-.exp{
+.mentor-exp {
     font-size: 80px;
+      
 }
 .review {
     padding: 20px;
@@ -448,3 +458,7 @@ h2 {
         width: 100%;
     }
 }
+
+
+   
+
